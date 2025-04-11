@@ -208,6 +208,7 @@ footer{
     padding-top: 4%;
     z-index: 105;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 .t1{
     font-family: 'Bergamasco';
@@ -225,11 +226,75 @@ footer{
 .god{
     font-family: 'Bergamasco';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.25vw;
     color: #F5F5F5;
     text-align: center;
     margin-top: 3%;
+}
+@media (max-width:1000px) {
+    .kn{
+        font-size: 3vw;
+        margin-right: 3%;
+    }
+    .kn img{
+        width: 4.3vw;
+    }
+    .logo{
+        font-size: 5.6vw;
+        top: -4vw;
+    }
+    .zag{
+        font-size: 10vw;
+        left: 10vw;
+    }
+    .slogan{
+        top: 46vw;
+        font-size: 3vw;
+        left: 10vw;
+        z-index: 100;
+    }
+    .buy{
+        top: 55vw;
+        font-size:3vw;
+        left: 10vw;
+    }
+    .zag2{
+        font-size: 6vw;
+        margin-top: 30%;
+    }
+    .img2{
+        left: 45vw;
+        width: 55%;
+    
+    }
+    .img3{
+        width: 60%;
+        top: 76vw;
+        left: -10%;
+    
+    }
+    .a1{
+        font-size: 3vw;
+        height: 30vw;
+        margin-top: 2%;
+    }
+    .t1{
+        font-size: 3.5vw;
+        text-align: center;
+        margin: auto;
+    }
+    .niz{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    }
+    .god{
+        font-size: 3vw;
+        margin-top: 4%;
+    }
+    footer {
+        height: 80vw;
+    }
 }
 
 

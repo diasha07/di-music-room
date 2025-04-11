@@ -105,6 +105,7 @@ main {
 
 .img1 {
     z-index: 2;
+    width: 60%;
 }
 
 .big {
@@ -262,12 +263,24 @@ footer {
     margin-top: 3%;
 }
 @media (max-width:1000px){
+    .kn{
+        font-size: 3vw;
+        margin-right: 3%;
+    }
+    .kn img{
+        width: 4.3vw;
+    }
+    .logo{
+        font-size: 5.6vw;
+        top: -4vw;
+    }
     .zag{
         font-size: 7vw;
+        margin-top: -100%;
     }
     .reg,.reg2{
         width: 65vw;
-        height: 45vw;
+        height: 70vw;
     }
     .reg2{
         width: 65vw;
@@ -295,5 +308,29 @@ footer {
     }
     .smallbut{
         font-size: 2.4vw;
+    }
+    .zag{
+        font-size: 10vw;
+        left: 10vw;
+    }
+    .t1{
+        font-size: 3.5vw;
+        text-align: center;
+        margin: auto;
+    }
+    .niz{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    }
+    .god{
+        font-size: 3vw;
+        margin-top: 4%;
+    }
+    footer {
+        height: 80vw;
+        margin-top: 20%;
+    }
+    .img1{
+        width: 100%;
     }
 }

@@ -213,11 +213,23 @@ footer{
     margin-top: 3%;
 }
 @media (max-width:1000px){
+    .kn{
+        font-size: 3vw;
+        margin-right: 3%;
+    }
+    .kn img{
+        width: 4.3vw;
+    }
+    .logo{
+        font-size: 5.6vw;
+        top: -4vw;
+    }
     .fon{
         border-radius: 2vw;
     }
     .zag{
         font-size: 6vw;
+        margin-top: 20%;
     }
     .zag1{
         font-size: 4vw;
@@ -234,6 +246,22 @@ footer{
     }
     .a1 button{
         font-size: 4vw;
+    }
+    .t1{
+        font-size: 3.5vw;
+        text-align: center;
+        margin: auto;
+    }
+    .niz{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    }
+    .god{
+        font-size: 3vw;
+        margin-top: 4%;
+    }
+    footer {
+        height: 80vw;
     }
     
 }
