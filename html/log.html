@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/log.css">
+</head>
+
+<body>
+    <header>
+        <div class="up">
+            <a href="index.html">
+                <p class="logo">DI MUSIC ROOM</p>
+            </a>
+            <div class="knopki">
+                <a class="kn" href="catalog.html">Каталог</a>
+                <a class="kn" href="#kont">Контакты</a>
+                <a class="kn" href="korzina.html"><img src="../folder/image 11.png"></a>
+                <a class="kn" onclick="perehod()"><img src="../folder/image 12.png" ></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <img class="img1" src="../folder/skripka.png" >
+        <p class="zag">Регистрация</p>
+        <div class="big">
+            <div class="reg">
+                <form action="">
+                    <input style="background-color: #D9D9D9;" class="type" type="text" placeholder="Имя">
+                    <input style="background-color: #D9D9D9;" class="typeemail" type="email" placeholder="Email">
+                    <input style="background-color: #D9D9D9;" class="typeparol" type="password" placeholder="Пароль">
+                </form>
+                <button class="first" onclick="gotovo()">Зарегистрироваться</button>
+                <p class="acc">Уже есть аккаунт?<button onclick="vhod()" class="smallbut">Войти</button></p>
+            </div>
+            <div class="reg2">
+                <form action="">
+                    <input style="background-color: #D9D9D9;" class="type2" type="email" placeholder="Email">
+                    <input style="background-color: #D9D9D9;" class="typeparol2" type="password" placeholder="Пароль">
+                </form>
+                <button class="first" onclick="gotovo2()">Войти</button>
+                <p class="acc2">Еще нет аккаунта?<button onclick="reg()" class="smallbut">Зарегистрироваться</button></p>
+            </div>
+        </div>
+    </main>
+    <footer id="kont">
+        <div class="niz">
+            <a class="t1" href="index.html"><p>Главная</p></a>
+            <a class="t1" href="catalog.html"><p>Каталог</p></a>
+            <a class="t1" onclick="perehod()"><p>Личный кабинет</p></a>
+            <a class="t1" href="korzina.html"><p>Корзина</p></a>
+            <a class="t1" href=""><p>+79612326586</p></a>
+            <a class="t1" href=""><p>dimusicstore@gmail.com</p></a>
+        </div>
+        <p class="god">2025</p>
+    </footer>
+</body>
+<script src="../js/log.js"></script>
+
+</html>

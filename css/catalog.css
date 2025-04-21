@@ -1,0 +1,272 @@
+@font-face {
+    font-family:'Discharge Pro' ;
+    src: url('../fonts/DischargePro.ttf');
+}
+@font-face {
+    font-family:'Bergamasco' ;
+    src: url('../fonts/ofont.ru_Bergamasco.ttf');
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0 ;
+    background-color: #292929;
+    background-image: url("../folder/fon.png");
+    background-size: cover;
+    background-repeat: repeat;
+    /* height:fit-content; */
+    overflow-x: hidden;
+}
+.up{
+    display: flex;
+    align-items: center;
+    z-index: 200;
+}
+.logo{
+    position: absolute;
+    left: 2.865vw;
+    top: 0.2vw;
+    font-family: 'Discharge Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    z-index: 150;
+}
+.knopki{
+    position: absolute;
+    width: 99vw;
+    top: 1.927vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 101;
+}
+.kn:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    width: 0;
+    height: 2px; 
+    background-color: #F5F5F5; 
+    transition: width 0.5s; 
+}
+.kn:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    height: 2px;
+    background-color: #690C01; 
+    transition: width 0.5s; 
+}
+.kn{
+    text-decoration: none;
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875vw;
+    color: #F5F5F5;
+    margin-right: 3%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.kn img{
+    width: 3.229vw;
+}
+.zag{
+    font-family: 'Discharge Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.167vw;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10%;
+}
+.zag1{
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #F5F5F5;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.big{
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: start;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+}
+.fon{
+    margin: auto;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    width: 310px;
+    height: 310px;
+    background: #F5F5F5;
+    border-radius: 1.042vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.fon:hover{
+    transform: scale(1.1);
+}
+.fon img{
+    margin: auto;
+    transition: 0.5s;
+}
+.opis1{
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #FFFFFF;
+    width: 20vw;
+    height: 2vw;
+}
+.cost1{
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    color: #F5F5F5;
+}
+.a1 button{
+    background: #690C01;
+    border-radius: 1.042vw;
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875vw;
+    color: #F5F5F5;
+    border: none;
+    padding: 1% 5% 1% 5%;
+    transition: 0.5s;
+}
+.a1 button:hover{
+    border: 2px solid #F5F5F5;
+    background: none;
+}
+footer{
+    margin-top: 10%;
+    height: 20.26vw;
+    background: #690C01;
+    padding-bottom: 0;
+}
+.niz{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 60vw;
+    margin: auto;
+    padding-top: 4%;
+    z-index: 105;
+    text-decoration: none;
+}
+.t1{
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.667vw;
+    color: #F5F5F5;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.be{
+    text-decoration: none;
+}
+.t1:hover{
+    /* text-shadow: #F5F5F5 5px 5px 5px; */
+}
+.god{
+    font-family: 'Bergamasco';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.25vw;
+    color: #F5F5F5;
+    text-align: center;
+    margin-top: 3%;
+}
+@media (max-width:1000px){
+    .kn{
+        font-size: 3vw;
+        margin-right: 3%;
+    }
+    .kn img{
+        width: 4.3vw;
+    }
+    .logo{
+        font-size: 5.6vw;
+        top: -4vw;
+    }
+    .fon{
+        border-radius: 2vw;
+    }
+    .zag{
+        font-size: 7vw;
+        margin-top: 20%;
+    }
+    .zag1{
+        font-size: 4vw;
+    }
+    .a1{
+        margin-top: 5%;
+    }
+    .opis1{
+        width: 70vw;
+        font-size: 5vw;
+    }
+    .cost1{
+        font-size: 5vw;
+        margin-top: 10%;
+    }
+    .a1 button{
+        font-size: 6vw;
+    }
+    .t1{
+        font-size: 3.5vw;
+        text-align: center;
+        margin: auto;
+    }
+    .niz{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    }
+    .god{
+        font-size: 3vw;
+        margin-top: 4%;
+    }
+    footer {
+        height: 80vw;
+    }
+    
+}

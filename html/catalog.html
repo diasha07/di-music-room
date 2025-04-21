@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/catalog.css">
+</head>
+<body>
+    <header>
+        <div class="up">
+            <a href="index.html"><p class="logo">DI MUSIC ROOM</p></a>
+            <div class="knopki">
+                <a class="kn" href="">Каталог</a>
+                <a class="kn" href="#kont">Контакты</a>
+                <a class="kn" href="korzina.html"><img src="../folder/image 11.png"  ></a>
+                <a class="kn" onclick="perehod()"><img src="../folder/image 12.png" ></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <p class="zag">Каталог</p>
+        <p class="zag1">Рекомендации</p>
+        <div class="big"> 
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/клавиши1-Photoroom 1.png"  width=" 100%">
+                </div>
+                <p class="opis1">Синтезатор (цвет черный)</p>
+                <p class="cost1">20,000 руб.</p>
+                <button onclick="korz('a')" class="korzina1">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/микрофон1-Photoroom 1.png" width=" 60%">
+                </div>
+                <p class="opis1">Микрофон
+                    (цвет черный)</p>
+                <p class="cost1">7,599 руб.</p>
+                <button onclick="korz('b')" class="korzina2">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/чехол-Photoroom 1.png" width=" 50%">
+                </div>
+                <p class="opis1">Чехол для гитары
+                    (цвет черный)</p>
+                <p class="cost1">6,900 руб.</p>
+                <button onclick="korz('c')" class="korzina3">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/медиатор-Photoroom (1) 1.png" width=" 80%">
+                </div>
+                <p class="opis1">Медиаторы(6 шт.)</p>
+                <p class="cost1">2,000 руб.</p>
+                <button onclick="korz('d')" class="korzina4">В корзину</button>
+            </div>
+        </div>
+        <p class="zag1">Пластинки</p>
+        <div class="big"> 
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/image 7.png"  width=" 90%">
+                </div>
+                <p class="opis1">Музыкальная Пластинка Gorillaz</p>
+                <p class="cost1">20,000 руб.</p>
+                <button onclick="korz('e')" class="korzina5">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/image 8 (1).png" width=" 90%">
+                </div>
+                <p class="opis1">Музыкальная Пластинка Linkin Park</p>
+                <p class="cost1">23,100 руб.</p>
+                <button onclick="korz('f')" class="korzina6">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/image 9 (1).png" width=" 80%">
+                </div>
+                <p class="opis1">Музыкальная Пластинка System of a down</p>
+                <p class="cost1">18,900 руб.</p>
+                <button onclick="korz('g')" class="korzina7">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/image 10.png" width=" 80%">
+                </div>
+                <p class="opis1">Музыкальная Пластинка The Black Keys</p>
+                <p class="cost1">15,999 руб.</p>
+                <button onclick="korz('h')" class="korzina8">В корзину</button>
+            </div>
+        </div>
+        <p class="zag1">Акустические гитары</p>
+        <div class="big"> 
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/гитара1-Photoroom 1.png"  width=" 40%">
+                </div>
+                <p class="opis1">Гитара (цвет голубой)</p>
+                <p class="cost1">54,000 руб.</p>
+                <button onclick="korz('i')" class="korzina9">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/гиатра2-Photoroom 1.png" width=" 40%">
+                </div>
+                <p class="opis1">Гитара (цвет коричневый)</p>
+                <p class="cost1">63,500 руб.</p>
+                <button onclick="korz('j')" class="korzina10">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/гиатра3-Photoroom 1.png" width=" 40%">
+                </div>
+                <p class="opis1">Гитара (цвет черный)</p>
+                <p class="cost1">66,700 руб.</p>
+                <button onclick="korz('k')" class="korzina11">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/гитара4-Photoroom 1.png" width=" 35%">
+                </div>
+                <p class="opis1">Гитара (цвет синий)</p>
+                <p class="cost1">78,999 руб</p>
+                <button onclick="korz('l')" class="korzina12">В корзину</button>
+            </div>
+        </div>
+        <p class="zag1">Электрогитары</p>
+        <div class="big"> 
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/электрогитара1-Photoroom 1.png"  width=" 40%">
+                </div>
+                <p class="opis1">Электрогитара(цвет фиолетовый)</p>
+                <p class="cost1">179,990 руб.</p>
+                <button onclick="korz('m')" class="korzina13">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/электрогитара2-Photoroom 1.png" width=" 35%">
+                </div>
+                <p class="opis1">Электрогитара(цвет неоновый, зеленый)</p>
+                <p class="cost1">119,990 руб.</p>
+                <button onclick="korz('n')" class="korzina14">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/электрогитара3-Photoroom 1.png" width=" 40%">
+                </div>
+                <p class="opis1">Электрогитара(цвет красный)</p>
+                <p class="cost1">135,990 руб.</p>
+                <button onclick="korz('o')" class="korzina15">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/электрогитара4-Photoroom 1.png" width=" 45%">
+                </div>
+                <p class="opis1">Электрогитара(цвет зеленый)</p>
+                <p class="cost1">289,999 руб.</p>
+                <button onclick="korz('p')" class="korzina16">В корзину</button>
+            </div>
+        </div>
+        <p class="zag1">Барабаны</p>
+        <div class="big"> 
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/барабан1-Photoroom 1.png"  width=" 90%">
+                </div>
+                <p class="opis1">Барабан (цвет черный)</p>
+                <p class="cost1">27,650 руб.</p>
+                <button onclick="korz('q')" class="korzina17">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/барабан2-Photoroom 1.png" width=" 90%">
+                </div>
+                <p class="opis1">Барабан (цвет белый)</p>
+                <p class="cost1">27,600 руб.</p>
+                <button onclick="korz('r')" class="korzina18">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/барабан3-Photoroom 1.png" width=" 90%">
+                </div>
+                <p class="opis1">Барабанная установка (цвет бирюзовый)</p>
+                <p class="cost1">150,000 руб.</p>
+                <button onclick="korz('s')" class="korzina19">В корзину</button>
+            </div>
+            <div class="a1">
+                <div class="fon">
+                    <img src="../folder/барабан4-Photoroom 1.png" width=" 90%">
+                </div>
+                <p class="opis1">Барабанная установка (цвет красный)</p>
+                <p class="cost1">130,000 руб.</p>
+                <button onclick="korz('t')" class="korzina20">В корзину</button>
+            </div>
+        </div>
+    </main>
+    <footer id="kont">
+        <div class="niz">
+            <a class="t1" href="index.html"><p>Главная</p></a>
+            <a class="t1" href="catalog.html"><p>Каталог</p></a>
+            <a class="t1" onclick="perehod()"><p>Личный кабинет</p></a>
+            <a class="t1" href="korzina.html"><p>Корзина</p></a>
+            <a class="t1" href=""><p>+79612326586</p></a>
+            <a class="t1" href=""><p>dimusicstore@gmail.com</p></a>
+        </div>
+        <p class="god">2025</p>
+    </footer>
+</body>
+<script src="../js/catalog.js"></script>
+</html>

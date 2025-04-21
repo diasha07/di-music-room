@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/korzina.css">
+</head>
+<body>
+    <header>
+        <div class="up">
+            <a href="index.html">
+                <p class="logo">DI MUSIC ROOM</p>
+            </a>
+            <div class="knopki">
+                <a class="kn" href="catalog.html">Каталог</a>
+                <a class="kn" href="#kont">Контакты</a>
+                <a class="kn" href=""><img src="../folder/image 11.png"></a>
+                <a class="kn" onclick="perehod()"><img src="../folder/image 12.png" ></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <p class="zag">Корзина</p>
+        <div class="big">
+            <p class="textup">Товаров в корзине: <span id="kolvo">0</span></p>
+            <div class="tovari">
+                <div class="a1">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/клавиши1-Photoroom 1.png"  width=" 100%">
+                        </div>
+                        <p class="opis1">Синтезатор (цвет черный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('a')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">20,000 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr1">
+                <div class="a2">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/микрофон1-Photoroom 1.png" width=" 60%">
+                        </div>
+                        <p class="opis1">Микрофон (цвет черный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('b')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">7,599 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr2">
+                <div class="a3">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/чехол-Photoroom 1.png" width=" 50%">
+                        </div>
+                        <p class="opis1">Чехол для гитары
+                            (цвет черный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('c')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">6,900 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr3">
+                <div class="a4">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/медиатор-Photoroom (1) 1.png" width=" 80%">
+                        </div>
+                        <p class="opis1">Медиаторы(6 шт.)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('d')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">2,000 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr4">
+                <div class="a5">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/image 7.png"  width=" 90%">
+                        </div>
+                        <p class="opis1">Музыкальная Пластинка Gorillaz</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('e')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">20,000 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr5">
+                <div class="a6">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/image 8 (1).png" width=" 90%">
+                        </div>
+                        <p class="opis1">Музыкальная Пластинка Linkin Park</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('f')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">23,100 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr6">
+                <div class="a7">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/image 9 (1).png" width=" 80%">
+                        </div>
+                        <p class="opis1">Музыкальная Пластинка System of a down</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('g')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">18,900 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr7">
+                <div class="a8">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/image 10.png" width=" 80%">
+                        </div>
+                        <p class="opis1">Музыкальная Пластинка The Black Keys</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('h')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">15,999 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr8">
+                <div class="a9">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/гитара1-Photoroom 1.png"  width=" 40%">
+                        </div>
+                        <p class="opis1">Гитара (цвет голубой)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('i')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">54,000 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr9">
+                <div class="a10">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/гиатра2-Photoroom 1.png" width=" 40%">
+                        </div>
+                        <p class="opis1">Гитара (цвет коричневый)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('j')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">63,500 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr10">
+                <div class="a11">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/гиатра3-Photoroom 1.png" width=" 40%">
+                        </div>
+                        <p class="opis1">Гитара (цвет черный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('k')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">66,700 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr11">
+                <div class="a12">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/гитара4-Photoroom 1.png" width=" 35%">
+                        </div>
+                        <p class="opis1">Гитара (цвет синий)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('l')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">78,999 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr12">
+                <div class="a13">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/электрогитара1-Photoroom 1.png"  width=" 40%">
+                        </div>
+                        <p class="opis1">Электрогитара(цвет фиолетовый)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('m')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">179,990 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr13">
+                <div class="a14">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/электрогитара2-Photoroom 1.png" width=" 35%">
+                        </div>
+                        <p class="opis1">Электрогитара(цвет неоновый, зеленый)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('n')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">119,990 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr14">
+                <div class="a15">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/электрогитара3-Photoroom 1.png" width=" 40%">
+                        </div>
+                        <p class="opis1">Электрогитара(цвет красный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('o')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">135,990 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr15">
+                <div class="a16">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/электрогитара4-Photoroom 1.png" width=" 45%">
+                        </div>
+                        <p class="opis1">Электрогитара(цвет зеленый)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('p')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">289,999 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr16">
+                <div class="a17">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/барабан1-Photoroom 1.png"  width=" 90%">
+                        </div>
+                        <p class="opis1">Барабан (цвет черный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('q')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">27,650 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr17">
+                <div class="a18">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/барабан2-Photoroom 1.png" width=" 90%">
+                        </div>
+                        <p class="opis1">Барабан (цвет белый)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('r')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">27,600 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr18">
+                <div class="a19">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/барабан3-Photoroom 1.png" width=" 90%">
+                        </div>
+                        <p class="opis1">Барабанная установка (цвет бирюзовый)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('s')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">150,000 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr19">
+                <div class="a20">
+                    <div class="levo">
+                        <div class="fon">
+                            <img src="../folder/барабан4-Photoroom 1.png" width=" 90%">
+                        </div>
+                        <p class="opis1">Барабанная установка (цвет красный)</p>
+                    </div>
+                    <div class="pravo">
+                        <a onclick="del('t')"><img class="musor" src="../folder/image 15 (1).png"></a>
+                        <p class="cost1">130,000 руб.</p>
+                    </div>
+                </div>
+                <hr class="hr20">
+            </div>
+            <div class="kupit">
+                <a class="buy" href="https://www.tbank.ru/mybank/payments/">Купить</a>
+                <p class="itogo">Итого: <span id="sum">0</span>руб.</p>
+            </div>
+        </div>
+    </main>
+    <footer id="kont">
+        <div class="niz">
+            <a class="t1" href="index.html"><p>Главная</p></a>
+            <a class="t1" href="catalog.html"><p>Каталог</p></a>
+            <a class="t1" onclick="perehod()"><p>Личный кабинет</p></a>
+            <a class="t1" href=""><p>Корзина</p></a>
+            <a class="t1" href=""><p>+79612326586</p></a>
+            <a class="t1" href=""><p>dimusicstore@gmail.com</p></a>
+        </div>
+        <p class="god">2025</p>
+    </footer>
+</body>
+<script src="../js/korzina.js"></script>
+</html>
